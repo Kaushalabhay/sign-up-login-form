@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.signup-container{
+  height: 100vh; /* view height*/
+  width: 100vw;  
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.heading{
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.signup-form{
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  width: 300px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+
+
+}
+
+.form-input{
+  margin-bottom: 1rem; /* 1rem = 16px */
+  
+}
+
+.form-input label{
+  margin-bottom: 0.5rem;
+  color: #555;
+
+}
+
+.form-input input{
+  width: 95%;
+  padding: .5rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+
+}
+
+.submit-button{
+  width: 100%;
+  background-color: #007bff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 1rem;
+  color: white;
+ 
+}
+
+.link-button{
+  text-align: center;
+  margin-top: 12px;
+  color: #555;
+
+}
+
+.show-password-button{
+  color: #555;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  padding : 4px 10px;
+  border: 1px solid grey;
+  margin-bottom: 12px;
+
+
+}
+
+/* LOGIN CSS */
+
+.login-container{
+  height: 100vh; /* view height*/
+  width: 100vw;  
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-input{
+  margin-bottom: 1rem;    
+}
+
+.login-input label{
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.login-input input{
+  width: 95%;
+  padding: .5rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+
+.login-form{
+  background-color: white;
+  border-radius: 8px;
+  width: 300px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+
+}
+
+
+/* HOME CSS */
+
+.home-container{
+  background-color: #2575fc;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  
+}
+
+.home-form{
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  width: 400px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  
+
+}
+
+.home-div{
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.home-button{
+  width: 9rem;
+  margin-left: 2rem;
+  background-color: #007bff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 1rem;
+  margin-top: .5rem;
+  color: white;
+
+}

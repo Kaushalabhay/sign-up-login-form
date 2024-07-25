@@ -1,0 +1,23 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js"
+  },
+  "author": "Abhay",
+  "license": "ISC",
+  "description": "This is a spotify clone for my app",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "slugify": "^1.6.6"
+  },
+  "keywords": [
+    "spotfy",
+    "music"
+  ]
+}
